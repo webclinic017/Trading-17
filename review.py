@@ -37,7 +37,7 @@ class SmaCross(Strategy):
             self.position.close()
             # self.sell()
 
-bt = Backtest(GOOG, SmaCross, cash=10_000, commission=.002)
+bt = Backtest(pd.read_csv('Data_5Min/TSLA_5Min.csv'), SmaCross, cash=10_000, commission=.002)
 stats = bt.run()
 print(stats)
 bt.plot()
