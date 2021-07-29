@@ -1,0 +1,56 @@
+Marking criteria is available at https://www.cs.york.ac.uk/student/projects/ug3-projects/ug3-criteria/
+
+Executive Summary (PRBX)
+Low 2:1
+========
+There is a lot of detail about the implementation of different designs to address the problem, but the **context and motivation** are very brief so it is not entirely clear what problem is being solved.
+========
+It's a bit muddled and the structure isn't great, but it does appear to cover the bases fairly well. I'd have liked a bit more explanation on the goals of the project, as they're not entirely clear. Discusses ethical implications in a fair amount of depth for an executive summary.
+========
+
+Main Report: Introductory Material/Motivation/Background/Literature (PRBX)
+Mid 2:1
+========
+Introduction covers the context and motivation but it would be clearer if this was presented before the detail of the problem.
+Review coveres much of the relevant material, usually at an apporpriate level of detail, but there are omissions - given that the approach selected is based on SKUTE, more detail of this should be given.
+========
+In general this was quite hard to parse; there's some clear issues with the structure and writing, I think. For example, it took me multiple readings to figure out that SKUTE, a key idea, was actually described in the literature review (as opposed to 'a second method that follows SKUTE'). Some concepts appear to be **missing defintions** (e.g. "cloud"), and some facts don't have a citation to back them up (e.g. **random replication not being appropriate for cloud services**). Despite this, there is a reasonable motivation, and there is good analysis of the literature covered. I would have liked more explicit success criteria, but I did have a good idea of what the project was trying to achieve.
+========
+
+Main Report: Methodology/Design/Implementation (PRBX)
+Low 2:1
+========
+This section was very hard to parse, with the reader being invited to memorise an algorithm so that they could later mentally copy and paste bits into it. Notwithstanding the required mental acrobatics, the description of the first implementation and it's variants is fairly good. However, there are a number of assumptions that appear to have been made which needed justification (e.g. agents transmitting large amounts of info seems to imply power is not an issue, which seems to contradict some of the motivation examples), as well as terms which are not defined (Paxos). The second implementation is more problematic however, as it utilises neural networks and genetic algorithms, and there is precisely zero discussion of how either of these methods work, and precisely zero references, which makes the second implementation very difficult to understand. There's also an equation **(3.8) which has no description**, is not mentioned in the text, and it's not entirely clear what it is. Ethical considerations appear to only be discussed in the **executive summary, and so are absent here**. This section definitely suffers from trying to do too much in too little space; it might have been better to cut the second implementation using neural networks and genetic algorithms as it's more of a negative than a positive in terms of the write-up.
+========
+Figure 3.1 needs a more detailed caption.
+Thre is a detailed description of the handcrafted methods, although this is not always clear. The description of the neural network based method is less detailed.
+========
+
+Main Report: Results/Analysis/Evaluation/Testing/Conclusion (PRBX)
+Mid 2:2
+========
+The most frustrating part of the results is that most of the results have been placed in an Appendix, and therefore cannot be marked. This means that the project only presents partial results. While I understand that the full results utilising images couldn't be included for space reasons, there should have been some effort to condense these results into a summary of some kind that could be included. There is a fair amount of analysis of the results (regardless of whether they're present or not), which rescues the section. Project is evaluated against the implicit success criteria, and the conclusion does a reasonable job of relating the outcomes to the motivation.
+========
+There are results from a number of different experiments presented. The explanation of the experiments and what was measure could have been presented more clearly.
+Figures referred to dirrectly should be in the main body of the text.
+There is an evaluation of the outcomes in terms of the criteria used, but this is only weakly put back into the original context.
+========
+
+Written Communication and Referencing (PRBX)
+Mid 2:2
+========
+The overall structure is appropriate, but the organisation of material is not always helpful. 
+Some relatively small rearrangements in the order in which ideas are presented would make it more readable.
+There are  number of typographic or grammatical irregularities.
+========
+Mostly self contained, with the exception of putting results in an appendix. Respects the formatting rules and citations/referencing is technically good. However there are significant issues with the structure of the report, which is very difficult to parse in places, forward **referencing** within the report is pervasive, and Algorithm 1 and the subsequent algorithms/equations require mental copy/pasting to use. Writing is of an appropriate style, but again can be very hard to parse in places.
+========
+
+Reflections (PRBX)
+Low 1st
+========
+Does give some context on what happened with this project, and why it appears to try (and in some cases, struggle) to cover so much ground. Would definitely recommend trying to improve on communication, writing and organisation skills. I do not feel that 'jumping from concept to concept' was addressed, certainly, but it's great that this was identified as an issue to work on.
+========
+Some good reflection about communication but could be a bit more about how this learning will be taken forward.
+========
+

@@ -1,0 +1,1 @@
+python C:\Users\Burge\Desktop\StockData\collect_data.py
